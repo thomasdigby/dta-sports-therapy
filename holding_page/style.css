@@ -1,0 +1,123 @@
+/* ------------------ reset --------- */
+blockquote, body, button, caption, dd, dl, fieldset, form, h1, h2, h3, h4, h5, h6, hr, iframe, input, legend, li, ol, p, pre, select, tbody, td, textarea, tfoot, th, thead, tr, ul {
+	border: 0;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+h1, h2, h3, h4 {
+	font-weight: normal;
+}
+small {
+	font-size: 80%;
+}
+sub, sup {
+	font-size: 75%;
+	left: 0.1em;
+	right: 0.1em;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	top: -0.5em;
+}
+sub {
+	bottom: -0.25em;
+}
+img {
+	border: 0;
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+}
+.lt_ie8 img {
+	vertical-align: top;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	text-align: left;
+}
+td, th {
+	text-align: inherit;
+}
+td img {
+	vertical-align: top;
+}
+button, select, input, textarea {
+	display: block;
+	font-family: inherit;
+	-webkit-appearance: none;
+}
+input:focus,
+textarea:focus {
+	outline-color: #004fb6;
+}
+legend {
+	display: none;
+}
+input[type=submit] {
+	cursor: pointer;
+}
+textarea {
+	overflow: auto;
+	resize: vertical;
+}
+
+/* ------------------ style --------- */
+body {
+	background: #84CAD9;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	color: #ffffff;
+}
+h1 {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+p {
+	font-size: 16px;
+	margin: 0 0 30px;
+}
+ul {
+	list-style: none;
+	width: 250px;
+	text-align: left;
+	margin: 0 auto 30px;
+}
+ul li {
+	margin-bottom: 10px;
+}
+a {
+	color: #ffffff;
+	text-decoration: none;
+	background: url('spr_icon.png') no-repeat 0 7px;
+	padding-left: 25px;
+}
+a:hover,
+a:focus {
+	text-decoration: underline;
+}
+.twitter {
+	background-position: 0 -295px;
+}
+.tel {
+	background-position: 0 -97px;
+}
+.facebook {
+	background-position: 0 -197px;
+}
+img {
+	margin-bottom: 50px;
+}
+.wrapper {
+	position: absolute;
+	height: 426px;
+	top: 50%;
+	left: 50%;
+	margin: -247px 0 0 -195px;
+	max-width: 390px;
+
+}

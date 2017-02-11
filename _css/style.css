@@ -615,6 +615,14 @@ blockquote[data-color="blue"] footer {
 	color: #95b437;
 }
 
+/* purple */
+[data-color="purple"] header {
+  background: #491C6C;
+}
+[data-color="purple"] h1 {
+	color: #491C6C;
+}
+
 /* ------------------ OOCSS --------- */
 /* margin */
 .margin_0 {
@@ -766,6 +774,18 @@ blockquote[data-color="blue"] footer {
 	header nav a {
 		text-align: center;
 	}
+  @supports (display: flex) {
+    header nav ul {
+      display: flex;
+      justify-content: space-between;
+    }
+  	header nav li {
+		  width: auto;
+    }
+  	header nav li:first-child a {
+		  padding-left: 0;
+    }
+  }
 }
 @media only screen and (max-width : 659px) {
 	[class*="col_"] {

@@ -279,7 +279,7 @@ header nav a {
 	text-transform: uppercase;
 	color: #fff;
 	text-decoration: none;
-	padding: 8px;
+	padding: 8px 4px;
 	display: block;
 }
 
@@ -615,6 +615,14 @@ blockquote[data-color="blue"] footer {
 	color: #95b437;
 }
 
+/* purple */
+[data-color="purple"] header {
+  background: #491C6C;
+}
+[data-color="purple"] h1 {
+	color: #491C6C;
+}
+
 /* ------------------ OOCSS --------- */
 /* margin */
 .margin_0 {
@@ -744,7 +752,7 @@ blockquote[data-color="blue"] footer {
 
 /* ------------------ Media Queries --------- */
 
-@media only screen and (min-width : 660px) and (max-width: 800px) {
+@media only screen and (min-width : 659px) and (max-width: 800px) {
 	header .left,
 	header .right {
 		float: none;
@@ -753,18 +761,33 @@ blockquote[data-color="blue"] footer {
 		height: auto;
 		padding: 20px 0 0;
 	}
+}
+@media only screen and (min-width : 660px) {
 	header nav {
-		margin-top: 10px;
+    margin-top: 10px;
 		width: 100%;
 	}
 	header nav li {
-		width: 20%;
+    margin-bottom: 0;
+		width: 16.6667%;
 	}
 	header nav a {
 		text-align: center;
 	}
+  @supports (display: flex) {
+    header nav ul {
+      display: flex;
+      justify-content: space-between;
+    }
+  	header nav li {
+		  width: auto;
+    }
+  	header nav li:first-child a {
+		  padding-left: 0;
+    }
+  }
 }
-@media only screen and (max-width : 660px) {
+@media only screen and (max-width : 659px) {
 	[class*="col_"] {
 		width: 100%;
 	}

@@ -1,1 +1,1 @@
-<?php include_once("sports-therapy/index.html"); ?>
+<?php include_once("heroku-home.html"); ?>
